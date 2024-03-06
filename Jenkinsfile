@@ -1,9 +1,5 @@
 pipeline{
     agent any
-    triggers{
-        cron '*/2 * * * *'
-    }
-    
     tools {
         nodejs '21.6.2'
     }
